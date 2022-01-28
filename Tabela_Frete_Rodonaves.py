@@ -40,7 +40,7 @@ prices.delete_rows(0, itemsToBeDeleted)
 
 #  New File Name
 
-Updated_Price_Table = "MinhasBola.xlsx"
+Updated_Price_Table = "New_Title.xlsx"
 wb2.save(filename = Updated_Price_Table)
 
 priceTable = pd.read_excel(Updated_Price_Table)
